@@ -1,0 +1,12 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Basic SQS creation",
+        "Resources" : {
+           "myqueue" : {
+              "Type" : "AWS::SQS::Queue",
+              "Properties" : {
+                "QueueName" : "SampleQueue"
+              }
+        }
+    }
+}
